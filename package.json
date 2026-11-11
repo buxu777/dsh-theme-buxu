@@ -1,0 +1,54 @@
+{
+  "name": "dsh-theme-buxu",
+  "version": "1.0.0",
+  "description": "不虚 · 质肤 / Buxu Skin — a full DSH personalization suite: multi-palette schemes, conversation avatars, and a settings page for accent / radius / sidebar / bubble tuning.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "buxu777",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "theme",
+    "skin",
+    "buxu",
+    "personalization",
+    "avatar"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/schemastery": "^3.18.5"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.5"
+  }
+}

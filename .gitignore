@@ -1,0 +1,39 @@
+# 不虚 · 质肤 —— git 忽略规则
+# 原则：只把「发布所需的 11 个文件」纳入版本控制；内部文档、临时脚本、
+# 版本备份、归档草稿一律留在工作区，不进 git、不进 npm 包。
+
+# ---- 内部文档（仅供本会话/维护者，非发布物）----
+HANDOFF.md
+DSH-RULES.md
+AGENTS.md
+CLAUDE.md
+
+# ---- 临时/诊断/验证脚本与产物（开发工作区 E:\DSH 下，不在本目录亦防误提交）----
+_tmp_*
+_qa_*
+_diag_*
+_probe_*
+_audit_*
+_versions/
+_archive/
+_eval/
+_ink_preview/
+*.tgz
+*.log
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Node ----
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.npmrc
+
+# 说明：npm 发布内容由 package.json 的 files 白名单决定（lib/assets/locale/
+# icon.svg/cordis.patch.yml/README.md/LICENSE），.gitignore 只管 git。

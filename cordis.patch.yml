@@ -1,0 +1,5 @@
+# 不虚 · Buxu — bundle patch.
+# Inserts this personalization suite's client row into the web plugin roster.
+- insert:
+    - id: ui-theme-buxu
+      name: 'dsh-theme-buxu'
