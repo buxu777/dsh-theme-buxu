@@ -1,6 +1,6 @@
 {
   "name": "dsh-theme-buxu",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "不虚 · 质肤 / Buxu Skin — a full DSH personalization suite: multi-palette schemes, conversation avatars, and a settings page for accent / radius / sidebar / bubble tuning.",
   "type": "module",
   "main": "lib/index.js",
