@@ -1,7 +1,8 @@
 {
   "name": "dsh-theme-buxu",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "不虚 · 质肤 / Buxu Skin — a full DSH personalization suite: multi-palette schemes, conversation avatars, and a settings page for accent / radius / sidebar / bubble tuning.",
+  "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -20,16 +21,6 @@
     "README.md",
     "LICENSE"
   ],
-  "license": "MIT",
-  "author": "buxu777",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/buxu777/dsh-theme-buxu.git"
-  },
-  "homepage": "https://github.com/buxu777/dsh-theme-buxu#readme",
-  "bugs": {
-    "url": "https://github.com/buxu777/dsh-theme-buxu/issues"
-  },
   "keywords": [
     "deepseek-harness",
     "dsh",
@@ -40,6 +31,21 @@
     "personalization",
     "avatar"
   ],
+  "engines": {
+    "dsh": ">=0.2.0-rc.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/schemastery": "^3.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buxu777/dsh-theme-buxu.git"
+  },
+  "homepage": "https://github.com/buxu777/dsh-theme-buxu#readme",
+  "bugs": {
+    "url": "https://github.com/buxu777/dsh-theme-buxu/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
@@ -52,10 +58,7 @@
       "immediately": true
     }
   },
-  "peerDependencies": {
-    "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/schemastery": "^3.18.5"
-  },
+  "author": "buxu777",
   "dependencies": {
     "@deepseek-ai/schemastery": "^3.18.5"
   }
