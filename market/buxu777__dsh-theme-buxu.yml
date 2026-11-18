@@ -1,0 +1,7 @@
+url: https://github.com/buxu777/dsh-theme-buxu
+name: buxu777/dsh-theme-buxu
+category: theme
+description:
+  en: Six single-hue color schemes for DSH with matching accent colors and reasoning-bar gradients, palette-aware conversation avatars, and a settings page.
+  zh: 六套单色相配色方案，强调色与推理强度条随配色一起切换，对话头像按配色自适应，并带独立设置页。
+icon: https://raw.githubusercontent.com/buxu777/dsh-theme-buxu/main/assets/icon-180.png

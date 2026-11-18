@@ -1,7 +1,7 @@
 {
   "name": "dsh-theme-buxu",
   "version": "0.10.0",
-  "description": "不虚 · 质肤 / Buxu Skin — a full DSH personalization suite: multi-palette schemes, conversation avatars, and a settings page for accent / radius / sidebar / bubble tuning.",
+  "description": "不虚 · 质肤 / Buxu Skin — six single-hue color schemes for DSH with matching accent colors and reasoning-bar gradients, palette-aware conversation avatars, and a settings page.",
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
@@ -31,9 +31,6 @@
     "personalization",
     "avatar"
   ],
-  "engines": {
-    "dsh": ">=0.2.0-rc.1"
-  },
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1",
     "@deepseek-ai/schemastery": "^3.18.5"
@@ -58,8 +55,5 @@
       "immediately": true
     }
   },
-  "author": "buxu777",
-  "dependencies": {
-    "@deepseek-ai/schemastery": "^3.18.5"
-  }
+  "author": "buxu777"
 }
